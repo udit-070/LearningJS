@@ -110,6 +110,8 @@ const returnedObj = Object.assign(target, source);
 console.log(returnedObj); // { p: 1, a: 3, b: 4 } We will get this in return. The returnedObj assigns the subsequent objects to the first object where both 'a' as their keys and here the value of 'a' is getting overwritten. 
 
 
+// Shallow copy vs. Deep copy
+
 
 
 
